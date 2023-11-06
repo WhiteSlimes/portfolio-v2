@@ -1,0 +1,51 @@
+@import "../../variables.scss";
+
+.navbar {
+    z-index: 10;
+    padding-top: 10px;
+    width: 100%;
+    transition: $transition;
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    .active {
+        border-bottom: 4px solid;
+        border-image-slice: 1;
+    }
+
+    li {
+        transition: $transition;
+        color: white;
+        z-index: 1000;
+        a{
+            color: $orange;
+            p{
+                padding-bottom: 0.4rem;
+            }
+            img{
+                width: 40px;
+                border-radius: 20px;
+            }
+        }
+        &:hover {
+            transform: translateY(-3px);
+            transition: $transition;
+        }
+
+        .link:hover {
+            color: $argent;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .menu {
+            gap: 2rem; /* Modifier le gap à 2rem pour les écrans de moins de 900px */
+        }
+    }
+}
