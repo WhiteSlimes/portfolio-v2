@@ -1,0 +1,39 @@
+@import "../../variables.scss";
+
+.mainPortfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(700px, 1fr)); // Utilisez une grille flexible avec une largeur minimale de 300px
+  gap: 20px; // Ajoutez un espacement entre les éléments de la grille
+  justify-content: center;
+
+  .projet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: $orange;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .portfolio {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .firstIcon,
+      .secondIcon {
+        padding: 8px;
+        border: 2px solid white;
+        border-radius: 25px;
+      }
+    }
+  }
+
+  // Ajoutez une media query pour ajuster la disposition en fonction de la largeur de l'écran
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr; // Une seule colonne pour les écrans plus petits que 900px
+  }
+}

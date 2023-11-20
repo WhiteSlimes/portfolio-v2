@@ -3,6 +3,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import {info} from "../../Info/Info";
 
 
+
 const iconClass = "fa fa-circle";
 
 function About(){
@@ -28,13 +29,28 @@ function About(){
                         <li key={index}>
                             <span>
                                 <div className="text-center">
-                                    <i className={skill.icon}>
-                                        <p>{skill.text}</p>
-                                    </i>
+                                    <img src={require(`../../Image/${skill.icon}`)} alt={skill.text}/>
                                 </div>
                             </span>
                         </li>
                         )}
+                    </ul>
+                </div>
+            </section>
+            <section className="terminal hobbies">
+                <h2>Mes hobbies</h2>
+                <div className="haut">
+                    <i className={iconClass + " red"}/>
+                    <i className={iconClass + " amber"}/>
+                    <i className={iconClass + " green"}/>
+                </div>
+                <div className="bas">
+                    <p><span>{firstName}{info.lastName.toLocaleLowerCase()} $</span> cd hobbies/interests {firstName}</p>
+                    <p><span>about {firstName}<span className="blackgreen">(main)</span> $ </span>ls</p>
+                    <ul>
+                        {info.hobbies.map((hobby, index) => (
+                            <li key={index}><span>{hobby.emoji}</span>{hobby.label}</li>
+                        ))}
                     </ul>
                 </div>
             </section>

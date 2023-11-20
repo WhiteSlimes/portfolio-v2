@@ -1,4 +1,10 @@
+import mock1 from "../Image/mock1.jpg"
+import mock2 from "../Image/mock2.jpg"
+import mock3 from "../Image/mock3.jpg"
+import mock4 from "../Image/mock4.jpg"
+
 export let colors = ["rgb(0,0,128", "rgb(255,165,0)"];
+
 
 export const info = {
     firstName: "Alexis",
@@ -47,31 +53,31 @@ export const info = {
     bio: "Bonjour je suis Alexis, actuellement en formation Développeur Web chez OpenClassroom, je suis fan d'espace et d'univers fantastique.",
     skills:[
         {
-            icon : "fa fa-html5",
+            icon : "html-5.svg",
             text : "HTML 5"
         },
         {
-            icon : "fa fa-css3",
+            icon : "css-3.svg",
             text : "CSS 3"
         },
         {
-            icon : "fa fa-js",
+            icon : "javascript.svg",
             text : "JavaScript"
         },
         {
-            icon : "fa fa-react",
+            icon : "react.svg",
             text : "React"
         },
         {
-            icon : "fa fa-git",
+            icon : "github-icon.svg",
             text : "GitHub"
         },
         {
-            icon : "fa fa-sass",
+            icon : "sass.svg",
             text : "SASS"
         },
         {
-            icon : "fa fa-java",
+            icon : "java.svg",
             text : "Java"
         },
     ],
@@ -95,10 +101,28 @@ export const info = {
     ],
     portfolio: [
         {
-            title : "Projet 1",
+            title : "Argent Bank",
             live: "",
-            source: "",
-            image: ""
+            source: "https://github.com/WhiteSlimes/oc-p11",
+            image: mock1
+        },
+        {
+            title : "Portfolio Architecte",
+            live: "",
+            source: "https://github.com/WhiteSlimes/OpenClassroom/tree/main/Projet_6",
+            image: mock2
+        },
+        {
+            title : "Kasa",
+            live: "",
+            source: "https://github.com/WhiteSlimes/OC-P8",
+            image: mock3
+        },
+        {
+            title : "Booki",
+            live: "",
+            source: "https://github.com/WhiteSlimes/OpenClassroom/tree/main/Projet_3/Booki",
+            image: mock4
         },
 
     ]
