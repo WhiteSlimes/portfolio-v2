@@ -29,22 +29,22 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/kujaku_tcg/",
             icon: 'fa fa-instagram',
             label: 'instagram' 
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/WhiteSlimes",
             icon: 'fa fa-github',
             label: 'github' 
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/alexis-papon-262016192/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/White_Slimes",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -102,24 +102,28 @@ export const info = {
     portfolio: [
         {
             title : "Argent Bank",
+            techno: "React / JS / Redux",
             live: "",
             source: "https://github.com/WhiteSlimes/oc-p11",
             image: mock1
         },
         {
             title : "Portfolio Architecte",
+            techno: "JS",
             live: "",
             source: "https://github.com/WhiteSlimes/OpenClassroom/tree/main/Projet_6",
             image: mock2
         },
         {
             title : "Kasa",
+            techno: "React / JS",
             live: "",
             source: "https://github.com/WhiteSlimes/OC-P8",
             image: mock3
         },
         {
             title : "Booki",
+            techno: "HTML / CSS",
             live: "",
             source: "https://github.com/WhiteSlimes/OpenClassroom/tree/main/Projet_3/Booki",
             image: mock4
