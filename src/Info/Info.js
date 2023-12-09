@@ -103,6 +103,7 @@ export const info = {
         {
             title : "Argent Bank",
             techno: "React / JS / Redux",
+            desc: "Projet de gestion de banque avec redux et react, connexion et déconnexion des utilisateurs avec leur profil modifiable",
             live: "",
             source: "https://github.com/WhiteSlimes/oc-p11",
             image: mock1
@@ -110,6 +111,7 @@ export const info = {
         {
             title : "Portfolio Architecte",
             techno: "JS",
+            desc: "Mis à jour d'un portfolio d'une architecte d'intérieur de façon à rendre son site plusz dynamique",
             live: "",
             source: "https://github.com/WhiteSlimes/OpenClassroom/tree/main/Projet_6",
             image: mock2
@@ -117,6 +119,7 @@ export const info = {
         {
             title : "Kasa",
             techno: "React / JS",
+            desc: "Site de location immobilière entre particulier",
             live: "",
             source: "https://github.com/WhiteSlimes/OC-P8",
             image: mock3
@@ -124,6 +127,7 @@ export const info = {
         {
             title : "Booki",
             techno: "HTML / CSS",
+            desc: "Site de réservation de location pour des vacances",
             live: "",
             source: "https://github.com/WhiteSlimes/OpenClassroom/tree/main/Projet_3/Booki",
             image: mock4
